@@ -32,7 +32,7 @@ const EditEmployee = () => {
             date.current.value  = data.date;
         })
 
-    },[])
+    },[id])
 
    
 

@@ -38,20 +38,17 @@ const CreateEmp = () => {
 
                     <label htmlFor="" className="form-label">Name:</label>
                     <input className="form-control w-100 " type="text" aria-label="default input example" required value={name} onChange={(e) => setName(e.target.value)} />
-                    {/* <input type="text" ref={name} className="mb-3 ms-5" /><br /> */}
-                </div>
+                   </div>
 
 
                 <div className="email ms-3">
                     <label htmlFor="" className="form-label mt-1">Email:</label>
                     <input type="email" class="form-control w-100 " id="exampleFormControlInput1" required value={email} onChange={(e) => setEmail(e.target.value)} />
-                    {/* <input type="email" name="" id="" ref={email} className="mb-3 ms-5" /><br /> */}
-                </div>
+ </div>
                 <div className="number ms-3">
                     <label htmlFor="" className="form-label mt-1">Mobile no:</label>
                     <input className="form-control w-100" type="text" aria-label="default input example" required pattern="[6789][0-9]{9}" value={mobile} onChange={(e) => setMobile(e.target.value)} />
-                    {/* <input type="text" ref={mobile} className="mb-3 ms-3" /><br /> */}
-                </div>
+                   </div>
 
 
                 <div className="f d-flex ">
@@ -104,11 +101,10 @@ const CreateEmp = () => {
 
 
                 <div className="fileupload mt-3 ms-3">
-                    <input className="form-control w-100" type="text" id="formFile" placeholder="Place image link here" value={image} onChange={(e) => setImage(e.target.value)} />
+                    <input className="form-control w-100" type="imagelink" id="formFile" placeholder="Place image link here" value={image} onChange={(e) => setImage(e.target.value)} />
                 </div>
 
 
-                {/* <input type="submit" value="Submit" className="btn btn-success mt-3 mb-3 ms-3" it/> */}
                 <button className="btn btn-success mt-3 mb-3 w-100">Submit</button>
             </form>
         </div>

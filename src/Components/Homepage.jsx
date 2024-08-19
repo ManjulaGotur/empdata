@@ -10,7 +10,7 @@ const Homepage = () => {
     let navigate = useNavigate()
 
    let handleSubmit = () =>{
-        if(login === "mrg@gmail.com" && password === "abc@1234"){
+        if(login === "admin@gmail.com" && password === "abc@123"){
             navigate('/admin')
         }else{
             alert('invalid Credentials')
